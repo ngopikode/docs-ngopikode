@@ -379,17 +379,13 @@ const App = () => {
                 </h2>
 
                 <h3 className="text-xl md:text-2xl font-medium text-slate-400 mb-8 font-mono">
-                    // Sebuah Eksplorasi Teknis antara Sains dan Wahyu.
+                    // Sebuah Eksplorasi Teknis antara Al-Qur'an dan Sains.
                 </h3>
 
                 <p className="text-slate-400 text-lg leading-relaxed max-w-3xl mx-auto font-normal">
-                    Sebagai <strong>Software Engineer</strong>, kita terlatih untuk melihat pola, struktur, dan
-                    efisiensi dalam sebuah sistem. Namun, ketika kita membedah isyarat Al-Qur'an dan fenomena sains,
-                    kita menemukan sebuah desain sistem yang melampaui kompleksitas kode manapun.
-                    <br/><br/>
-                    Dokumentasi ini adalah upaya untuk melakukan <em>reverse engineering</em> terhadap mekanisme alam
-                    semesta; mencoba memahami logika Sang Pencipta melalui paradigma rekayasa perangkat lunak dan
-                    arsitektur sistem.
+                    Upaya melakukan <em>reverse engineering</em> terhadap mekanisme alam semesta. Membedah isyarat
+                    Al-Qur'an dan fenomena Sains untuk memahami logika Sang Pencipta melalui kacamata <strong>Software
+                    Engineering</strong>.
                 </p>
 
                 <div className="mt-10 flex flex-wrap gap-4 justify-center">
@@ -493,7 +489,9 @@ const App = () => {
                                     <div className="flex items-center gap-2 mb-3">
                                         <Hash size={12} className="text-emerald-500 opacity-70"/>
                                         <span
-                                            className="text-[11px] font-bold text-emerald-500/80 uppercase tracking-widest font-mono">Referensi Al-Qur'an: {topic.verse}</span>
+                                            className="text-[11px] font-bold text-emerald-500/80 uppercase tracking-widest font-mono">
+                      Referensi Al-Qur'an: {topic.verse}
+                    </span>
                                     </div>
                                     <p className="text-[15px] text-slate-300 font-serif italic leading-relaxed">
                                         "{topic.verseText}"
@@ -530,7 +528,7 @@ const App = () => {
                 <div className="max-w-7xl mx-auto px-6">
                     <p className="text-slate-600 text-xs font-mono mb-6 leading-relaxed">
                         &lt;system_log&gt; <br/>
-                        Project: The Great Architect v2.1 <br/>
+                        Project: The Great Architect v2.3 <br/>
                         Scope: Science, Al-Qur'an & Software Engineering Analysis <br/>
                         &lt;/system_log&gt;
                     </p>
